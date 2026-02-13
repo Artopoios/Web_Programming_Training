@@ -6,15 +6,6 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
-    @keyframes white_letters_animation_top {
-      0%   {color:rgb(255, 255, 255); left:170px;}
-      100%  {color:dodgerblue; left:100px;}
-    }
-    @keyframes white_letters_animation_bottom {
-      0%   {color:rgb(255, 255, 255); left:70px;}
-      100%  {color:dodgerblue; left:0px;}
-    }
-
     .flag{
       position: absolute;
       background-color:dodgerblue;
@@ -32,9 +23,9 @@
 
     #cross_left_bottom{
       position: absolute;
-      background-color:dodgerblue;
+      background-color:rgb(255, 79, 30);
       top: 60px;
-      left: 0px;
+      left: 60px;
       height: 40px;
       width: 40px;
     }
@@ -42,106 +33,11 @@
     #cross_right_bottom{
       position: absolute;
       background-color:dodgerblue;
-      top: 60px;
-      left: 60px;
+      top: 0px;
+      left: 0px;
       height: 40px;
       width: 40px;
     }
-
-    #stribe1Blue{
-      position: absolute;
-      background-color:dodgerblue;
-      color:aliceblue;
-      top: 0px;
-      left: 100px;
-      height: 20px;
-      width: 170px;
-    }
-
-    #stribe1White{
-      position: absolute;
-      color:dodgerblue;
-      top: 20px;
-      left: 100px;
-      height: 20px;
-      width: 170px;
-      animation-name: white_letters_animation_top;
-      animation-duration: 4s;
-    }
-
-    #stribe2Blue{
-      position: absolute;
-      background-color:dodgerblue;
-      color:aliceblue;
-      top: 40px;
-      left: 100px;
-      height: 20px;
-      width: 170px;
-    }
-
-    #stribe2White{
-      position: absolute;
-      color:dodgerblue;
-      top: 60px;
-      left: 100px;
-      height: 20px;
-      width: 170px;
-      animation-name: white_letters_animation_top;
-      animation-duration: 4s;
-    }
-
-    #stribe3Blue{
-      position: absolute;
-      background-color:dodgerblue;
-      color:aliceblue;
-      top: 80px;
-      left: 100px;
-      height: 20px;
-      width: 170px;
-    }
-
-    #stribe3White{
-      position: absolute;
-      color:dodgerblue;
-      top: 100px;
-      left: 0px;
-      height: 20px;
-      width: 170px;
-      animation-name: white_letters_animation_bottom;
-      animation-duration: 4s;
-    }
-
-    #stribe4Blue{
-      position: absolute;
-      background-color:dodgerblue;
-      color:aliceblue;
-      top: 120px;
-      left: 0px;
-      height: 20px;
-      width: 270px;
-    }
-
-    #stribe4White{
-      position: absolute;
-      color:dodgerblue;
-      top: 140px;
-      left: 0px;
-      height: 20px;
-      width: 170px;
-      animation-name: white_letters_animation_bottom;
-      animation-duration: 4s;
-    }
-
-    #stribe5Blue{
-      position: absolute;
-      background-color:dodgerblue;
-      color:aliceblue;
-      top: 160px;
-      left: 0px;
-      height: 20px;
-      width: 270px;
-    }
-
   </style>
 </head>
 
@@ -156,20 +52,11 @@ https://appbrewery.github.io/flag-of-laos/
 -->
 
 <body>
-  <h1>The Flag of Greece</h1>
+  <p>The Flag of Greece</p>
   <div class="flag">
     <div id="cross_right_top"></div>
     <div id="cross_left_bottom"></div>
     <div id="cross_right_bottom"></div>
-    <div id="stribe1Blue">Ε</div>
-    <div id="stribe1White">ΛΕΥ</div>
-    <div id="stribe2Blue">ΘΕ</div>
-    <div id="stribe2White">ΡΙ</div>
-    <div id="stribe3Blue">Α</div>
-    <div id="stribe3White">Ή</div>
-    <div id="stribe4Blue">ΘΑ</div>
-    <div id="stribe4White">ΝΑ</div>
-    <div id="stribe5Blue">ΤΟΣ</div>
   </div>
 </body>
 
