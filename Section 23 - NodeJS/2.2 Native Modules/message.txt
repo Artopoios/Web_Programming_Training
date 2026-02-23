@@ -1,2 +1,1 @@
-Hello from NodeJS!
-Hello from Angela!
+This is amazing, my NodeJS program seems to be working!
