@@ -69,4 +69,6 @@ app.listen(port, () => {
  * or through Mac / Linux with the command:
  * 
  * `sudo lsof -i -P -n | grep LISTEN
+ * 
+ * Step 10: Stop the server by pressing Ctrl + C
  */
